@@ -1,6 +1,6 @@
 # Deep Kernel Ridge Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kBMI1kXE2MNYYsn3zA9kInkhRkWi_MJB?usp=sharing)
 
-Library and Plots based on the paper ![A representer theorem for Deep Kernel Learning](https://jmlr.org/papers/volume20/17-621/17-621.pdf) by B. Bohn et al.
+This this the codebase for our upcomming paper on Deep RKBSs. the basecode is taken from this repo.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Step 2: install python dependencies
 
 ## Getting Started
 
-Lets perform Deep Kernel ridge regression on synthetic data similar to the paper.
+Lets perform Deep RKHS Kernel ridge regression on synthetic data similar to the paper.
 
 ```python
 
@@ -62,18 +62,9 @@ after training it for 10K epochs, the inner layer representation looks like this
 we can also look at the computation graph of our model using torchviz:
 ![link](./assets/comp_graph.pdf).
 
-### What now?
+## TODO
 
-umm... Play with it! add new kernels, increase the depth, using gpus to speed things up... sky is the limit! ;D
-
-If you find some bugs or create a cool new feature then please feel free to file an issue or send a PR!.
-
-## Change Logs
-
-* Now we can use more then 2 layers. 🚀
-* Added the functionality of loading and saving model in e2eKRR 🤓
-* Restructured Codebase and removed dead code ⚰️
-
+* Implement real-valued RKBS Kernel.
 ## License
 
 ![MIT](./LICENSE)
