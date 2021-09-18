@@ -1,4 +1,4 @@
-# Deep RKBS[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kBMI1kXE2MNYYsn3zA9kInkhRkWi_MJB?usp=sharing)
+# Deep RKBS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kBMI1kXE2MNYYsn3zA9kInkhRkWi_MJB?usp=sharing)
 
 This this the codebase for our upcomming paper on Deep RKBSs. the basecode is taken from this repo.
 
